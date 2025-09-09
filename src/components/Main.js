@@ -31,7 +31,8 @@ export const Main = () => {
                         imageData.map((data, index) => {
                             return (
                                 <div  className='image-card' key={index} >
-                                    <img src={data.src} />
+                                    <img src={data.src} alt='image' />
+                                    
                                 </div>
                             )
                         })
