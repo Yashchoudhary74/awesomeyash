@@ -31,7 +31,7 @@ export const Main = () => {
                         imageData.map((data, index) => {
                             return (
                                 <div  className='image-card' key={index} >
-                                    <img src={data.src} alt="" />
+                                    <img src={data.src}  loading="lazy" alt="" />
 
                                 </div>
                             )
